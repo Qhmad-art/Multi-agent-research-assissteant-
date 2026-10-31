@@ -80,33 +80,22 @@ Responsible for evaluating and critically analyzing the research collected by th
 | Tavily Search | Web research |
 | BeautifulSoup | Website scraping |
 | Requests | HTTP requests |
-| Pydantic | Structured data validation |
+| StrOutput | Structured data validation |
 | Python-dotenv | Environment configuration |
 
 ## 📂 Project Structure
 
 ```text
-research_assistant/
+research_agent/
 │
 ├── src/
 │   ├── agents/
-│   │   ├── research_agent.py
-│   │   └── critic_agent.py
+│   │   ├── agents.py
 │   │
 │   ├── tools/
-│   │   ├── search_tool.py
-│   │   └── scraper_tool.py
+│   │   ├── tools.py
 │   │
-│   ├── chains/
-│   │   ├── research_chain.py
-│   │   └── review_chain.py
 │   │
-│   ├── prompts/
-│   │   ├── research_prompt.py
-│   │   └── critic_prompt.py
-│   │
-│   ├── config/
-│   │   └── settings.py
 │   │
 │   └── main.py
 │
